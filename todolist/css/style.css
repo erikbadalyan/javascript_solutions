@@ -1,0 +1,73 @@
+@import url(normalize.css);
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #E1EFFD;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+	padding: 35px;
+}
+
+input {
+	height: 40px;
+	width: 89%;
+	padding: 0 10px;
+}
+
+.add_new_title_btn {
+	width: 10%;
+	height: 40px;
+}
+
+header{
+	background-color: #505c87;
+	color: white;
+}
+
+.remove{
+	background-image: url("../images/remove.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    margin-left:5px;
+}
+
+.complete{
+	border-radius: 15px;
+	background-image: url("../images/check.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.todo_item {
+	display: flex;
+	align-items: center;
+	border-bottom: 2px solid #A9D2FB;
+	padding-bottom: 8px;
+	margin-bottom: 10px;
+}
+
+.todo_title {
+	flex-basis: 88%;
+	font-size: 18px;
+}
+
+.buttons {
+	flex-basis: 12%;
+}
+
+.buttons button {
+	width: 35px;
+	height: 35px;
+	border: none;
+	float: left;
+	background-color: transparent;
+}
